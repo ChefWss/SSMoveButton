@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6758F31F7367D300EECE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6758F21F7367D300EECE49 /* main.m */; };
+		5C6758F61F7367D300EECE49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6758F51F7367D300EECE49 /* AppDelegate.m */; };
+		5C6758F91F7367D300EECE49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6758F81F7367D300EECE49 /* ViewController.m */; };
+		5C6758FC1F7367D300EECE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6758FA1F7367D300EECE49 /* Main.storyboard */; };
+		5C6758FE1F7367D300EECE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6758FD1F7367D300EECE49 /* Assets.xcassets */; };
+		5C6759011F7367D300EECE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6758FF1F7367D300EECE49 /* LaunchScreen.storyboard */; };
+		5C67590C1F7367D300EECE49 /* SSMoveButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67590B1F7367D300EECE49 /* SSMoveButtonTests.m */; };
+		5C6759171F7367D300EECE49 /* SSMoveButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6759161F7367D300EECE49 /* SSMoveButtonUITests.m */; };
+		5C6759261F73684000EECE49 /* WSSMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6759251F73684000EECE49 /* WSSMoveButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6759081F7367D300EECE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6758E61F7367D300EECE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6758ED1F7367D300EECE49;
+			remoteInfo = SSMoveButton;
+		};
+		5C6759131F7367D300EECE49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6758E61F7367D300EECE49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6758ED1F7367D300EECE49;
+			remoteInfo = SSMoveButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6758EE1F7367D300EECE49 /* SSMoveButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSMoveButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6758F21F7367D300EECE49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C6758F41F7367D300EECE49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C6758F51F7367D300EECE49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C6758F71F7367D300EECE49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C6758F81F7367D300EECE49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C6758FB1F7367D300EECE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6758FD1F7367D300EECE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6759001F7367D300EECE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6759021F7367D300EECE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6759071F7367D300EECE49 /* SSMoveButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSMoveButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C67590B1F7367D300EECE49 /* SSMoveButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSMoveButtonTests.m; sourceTree = "<group>"; };
+		5C67590D1F7367D300EECE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6759121F7367D300EECE49 /* SSMoveButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSMoveButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6759161F7367D300EECE49 /* SSMoveButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSMoveButtonUITests.m; sourceTree = "<group>"; };
+		5C6759181F7367D300EECE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6759241F73684000EECE49 /* WSSMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSMoveButton.h; sourceTree = "<group>"; };
+		5C6759251F73684000EECE49 /* WSSMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSMoveButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6758EB1F7367D300EECE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6759041F7367D300EECE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C67590F1F7367D300EECE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6758E51F7367D300EECE49 = {
+			isa = PBXGroup;
+			children = (
+				5C6758F01F7367D300EECE49 /* SSMoveButton */,
+				5C67590A1F7367D300EECE49 /* SSMoveButtonTests */,
+				5C6759151F7367D300EECE49 /* SSMoveButtonUITests */,
+				5C6758EF1F7367D300EECE49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6758EF1F7367D300EECE49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6758EE1F7367D300EECE49 /* SSMoveButton.app */,
+				5C6759071F7367D300EECE49 /* SSMoveButtonTests.xctest */,
+				5C6759121F7367D300EECE49 /* SSMoveButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6758F01F7367D300EECE49 /* SSMoveButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C6758F41F7367D300EECE49 /* AppDelegate.h */,
+				5C6758F51F7367D300EECE49 /* AppDelegate.m */,
+				5C6758F71F7367D300EECE49 /* ViewController.h */,
+				5C6758F81F7367D300EECE49 /* ViewController.m */,
+				5C6759241F73684000EECE49 /* WSSMoveButton.h */,
+				5C6759251F73684000EECE49 /* WSSMoveButton.m */,
+				5C6758FA1F7367D300EECE49 /* Main.storyboard */,
+				5C6758FD1F7367D300EECE49 /* Assets.xcassets */,
+				5C6758FF1F7367D300EECE49 /* LaunchScreen.storyboard */,
+				5C6759021F7367D300EECE49 /* Info.plist */,
+				5C6758F11F7367D300EECE49 /* Supporting Files */,
+			);
+			path = SSMoveButton;
+			sourceTree = "<group>";
+		};
+		5C6758F11F7367D300EECE49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6758F21F7367D300EECE49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C67590A1F7367D300EECE49 /* SSMoveButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C67590B1F7367D300EECE49 /* SSMoveButtonTests.m */,
+				5C67590D1F7367D300EECE49 /* Info.plist */,
+			);
+			path = SSMoveButtonTests;
+			sourceTree = "<group>";
+		};
+		5C6759151F7367D300EECE49 /* SSMoveButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6759161F7367D300EECE49 /* SSMoveButtonUITests.m */,
+				5C6759181F7367D300EECE49 /* Info.plist */,
+			);
+			path = SSMoveButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6758ED1F7367D300EECE49 /* SSMoveButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C67591B1F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButton" */;
+			buildPhases = (
+				5C6758EA1F7367D300EECE49 /* Sources */,
+				5C6758EB1F7367D300EECE49 /* Frameworks */,
+				5C6758EC1F7367D300EECE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSMoveButton;
+			productName = SSMoveButton;
+			productReference = 5C6758EE1F7367D300EECE49 /* SSMoveButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6759061F7367D300EECE49 /* SSMoveButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C67591E1F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButtonTests" */;
+			buildPhases = (
+				5C6759031F7367D300EECE49 /* Sources */,
+				5C6759041F7367D300EECE49 /* Frameworks */,
+				5C6759051F7367D300EECE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6759091F7367D300EECE49 /* PBXTargetDependency */,
+			);
+			name = SSMoveButtonTests;
+			productName = SSMoveButtonTests;
+			productReference = 5C6759071F7367D300EECE49 /* SSMoveButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6759111F7367D300EECE49 /* SSMoveButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6759211F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButtonUITests" */;
+			buildPhases = (
+				5C67590E1F7367D300EECE49 /* Sources */,
+				5C67590F1F7367D300EECE49 /* Frameworks */,
+				5C6759101F7367D300EECE49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6759141F7367D300EECE49 /* PBXTargetDependency */,
+			);
+			name = SSMoveButtonUITests;
+			productName = SSMoveButtonUITests;
+			productReference = 5C6759121F7367D300EECE49 /* SSMoveButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6758E61F7367D300EECE49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王少帅";
+				TargetAttributes = {
+					5C6758ED1F7367D300EECE49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5C6759061F7367D300EECE49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C6758ED1F7367D300EECE49;
+					};
+					5C6759111F7367D300EECE49 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C6758ED1F7367D300EECE49;
+					};
+				};
+			};
+			buildConfigurationList = 5C6758E91F7367D300EECE49 /* Build configuration list for PBXProject "SSMoveButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6758E51F7367D300EECE49;
+			productRefGroup = 5C6758EF1F7367D300EECE49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6758ED1F7367D300EECE49 /* SSMoveButton */,
+				5C6759061F7367D300EECE49 /* SSMoveButtonTests */,
+				5C6759111F7367D300EECE49 /* SSMoveButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6758EC1F7367D300EECE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6759011F7367D300EECE49 /* LaunchScreen.storyboard in Resources */,
+				5C6758FE1F7367D300EECE49 /* Assets.xcassets in Resources */,
+				5C6758FC1F7367D300EECE49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6759051F7367D300EECE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6759101F7367D300EECE49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6758EA1F7367D300EECE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6758F91F7367D300EECE49 /* ViewController.m in Sources */,
+				5C6758F61F7367D300EECE49 /* AppDelegate.m in Sources */,
+				5C6759261F73684000EECE49 /* WSSMoveButton.m in Sources */,
+				5C6758F31F7367D300EECE49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6759031F7367D300EECE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C67590C1F7367D300EECE49 /* SSMoveButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C67590E1F7367D300EECE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6759171F7367D300EECE49 /* SSMoveButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6759091F7367D300EECE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6758ED1F7367D300EECE49 /* SSMoveButton */;
+			targetProxy = 5C6759081F7367D300EECE49 /* PBXContainerItemProxy */;
+		};
+		5C6759141F7367D300EECE49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6758ED1F7367D300EECE49 /* SSMoveButton */;
+			targetProxy = 5C6759131F7367D300EECE49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6758FA1F7367D300EECE49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6758FB1F7367D300EECE49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6758FF1F7367D300EECE49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6759001F7367D300EECE49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6759191F7367D300EECE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C67591A1F7367D300EECE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C67591C1F7367D300EECE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSMoveButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C67591D1F7367D300EECE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSMoveButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C67591F1F7367D300EECE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSMoveButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSMoveButton.app/SSMoveButton";
+			};
+			name = Debug;
+		};
+		5C6759201F7367D300EECE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSMoveButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSMoveButton.app/SSMoveButton";
+			};
+			name = Release;
+		};
+		5C6759221F7367D300EECE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSMoveButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSMoveButton;
+			};
+			name = Debug;
+		};
+		5C6759231F7367D300EECE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSMoveButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SSMoveButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSMoveButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6758E91F7367D300EECE49 /* Build configuration list for PBXProject "SSMoveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6759191F7367D300EECE49 /* Debug */,
+				5C67591A1F7367D300EECE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C67591B1F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C67591C1F7367D300EECE49 /* Debug */,
+				5C67591D1F7367D300EECE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C67591E1F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C67591F1F7367D300EECE49 /* Debug */,
+				5C6759201F7367D300EECE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C6759211F7367D300EECE49 /* Build configuration list for PBXNativeTarget "SSMoveButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6759221F7367D300EECE49 /* Debug */,
+				5C6759231F7367D300EECE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6758E61F7367D300EECE49 /* Project object */;
+}
