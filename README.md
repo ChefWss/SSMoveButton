@@ -3,6 +3,4 @@
 [1]dragEnable   是否可拖动属性
 [2]adsorbEnable 是否有弹性动画贴靠边缘的属性
 
-可修改其他属性
-
 
